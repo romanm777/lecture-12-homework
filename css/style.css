@@ -1,0 +1,165 @@
+body {
+  background: orange;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#list-container {
+  background: rgb(240, 219, 219);
+  font-weight: bold;
+  min-width: 500px;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  border: 1px solid green;
+}
+
+.add-button {
+  width: 150px;
+  height: 50px;
+  color: white;
+  background: green;
+  border: 1px solid brown;
+  border-radius: 15px;
+  box-shadow: 5px 5px #000;
+  cursor: pointer;
+  margin-top: 100px;
+}
+
+.settings-button {
+  width: 150px;
+  height: 50px;
+  color: white;
+  background: purple;
+  border: 1px solid brown;
+  border-radius: 15px;
+  box-shadow: 5px 5px #000;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.form-background {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(204,204,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.form-popup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    background-color: #D6E2E0;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.input {
+  width: 70%;
+}
+
+.submit {
+  background: green;
+  color: white;
+  width: 20%;
+  border-radius: 15px;
+  box-shadow: 5px 5px #000;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.settings-background {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(204,204,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.settings-popup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    background-color: #D6E2E0;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 400px;
+    height: 220px;
+    border-radius: 15px;
+}
+
+.settings_input {
+  width: 30%;
+}
+
+.submit_settings {
+  background: green;
+  color: white;
+  width: 25%;
+  border-radius: 15px;
+  box-shadow: 5px 5px #000;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.message-background {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #EB3737;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.message-popup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    background-color: #EB3737;
+    margin: auto;
+    font-family: Courier;
+    color: white;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 400px;
+    height: 140px;
+    border-radius: 15px;
+}
+
+.submit-message {
+  background: #A93737;
+  color: white;
+  width: 25%;
+  height: 17%;
+  border-radius: 15px;
+  box-shadow: 5px 5px #000;
+  cursor: pointer;
+  margin-top: 20px;
+}
