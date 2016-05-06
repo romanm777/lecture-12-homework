@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lecture 12 (DOM & BOM) homework</title>
+    <link rel="stylesheet" href="./css/style.css"/>
+  </head>
+  <body>
+    <div id="list-container">
+      <ul id="employeeList">
+
+      </ul>
+    </div>
+
+    <button class="add-button" onclick="addNew()"><strong>Add New emplyee<strong></button>
+    <button class="settings-button" onclick="showSettings()"><strong>Settings<strong></button>
+
+    <div id="behind-form" class="form-background">
+      <div class="form-popup">
+        <h2><strong>New employee</strong></h2>
+        <label for="first-name">First name</label>
+        <input id="first-name" name="first-name" placeholder="First name" type="text" class="input"/>
+        <label for="last-name">Last name</label>
+        <input id="last-name" name="last-name" placeholder="Last name" type="text" class="input"/>
+        <label for="salary">Salary</label>
+        <input id="salary" name="salary" placeholder="Salary" type="number" class="input"/>
+        <label for="position">Position</label>
+        <input id="position" name="position" placeholder="Position" type="text" class="input"/>
+        <input id="add-submit" type="submit" value="Confirm" class="submit" onclick="confirmAdd()"/>
+      </div>
+    </div>
+
+    <div id="settings" class="settings-background">
+      <div class="settings-popup">
+        <h2><strong>Settings</strong></h2>
+        <label for="max-count">Maximum employers number</label>
+        <input id="max-count" name="max-count" placeholder="Max count" type="number" min="1" max="30" class="settings_input"/>
+        <label for="max-average-salary">Maximum average salary</label>
+        <input id="max-average-salary" name="max-average-salary" placeholder="Max average salary" type="number" min="100" max="10000" class="settings_input"/>
+        <input id="settings-submit" type="submit" value="Save settings" class="submit_settings" onclick="confirmSettings()"/>
+      </div>
+    </div>
+
+    <div id="message" class="message-background">
+      <div class="message-popup">
+        <p id="message-body"></p>
+        <button class="submit-message" onclick="confirmMessage()">Ok</button>
+      </div>
+    </div>
+
+    <script src="./js/base.js"></script>
+  </body>
+</html>
